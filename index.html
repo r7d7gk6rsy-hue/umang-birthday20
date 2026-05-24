@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Surprise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Playpen+Sans:wght@600&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer-canvas">
+        <div class="fluid-card-container">
+            
+            <section id="screen-password" class="screen active">
+                <div class="login-box">
+                    <h2>Enter the password to view</h2>
+                    <input type="password" id="password-input" placeholder="••••••••">
+                    <div class="captcha-mock">
+                        <input type="checkbox" id="captcha-check">
+                        <label for="captcha-check">I'm not a robot</label>
+                    </div>
+                    <button id="btn-login-continue" class="base-btn">Continue</button>
+                </div>
+            </section>
+
+            <section id="screen-question" class="screen">
+                <h1 class="main-hey">HEY!!</h1>
+                <p class="subtext-bold">I made something for you</p>
+                <p class="subtext-cursive">Do you want to see?</p>
+                <div class="btn-group">
+                    <button id="btn-yes" class="base-btn design-btn">Yes</button>
+                    <button id="btn-no" class="base-btn design-btn">No</button>
+                </div>
+            </section>
+
+            <section id="screen-angry" class="screen">
+                <h1 class="main-hey">HOW DARE YOU</h1>
+                <div class="img-holder">
+                    <img src="puppy.jpg" alt="Grumpy Puppy" style="width: 200px; border-radius: 15px;">
+                </div>
+                <button id="btn-back" class="base-btn design-btn">Go back</button>
+            </section>
+
+            <section id="screen-praise" class="screen">
+                <div class="dual-media-row">
+                    <div class="polaroid-frame"><img src="pic1.jpg" alt="Moment"></div>
+                    <div class="polaroid-frame">
+                        <video src="us_video.mp4" muted loop playsinline></video>
+                    </div>
+                </div>
+                <h2 class="subtext-bold punjabi-text">That's like a ਸੋਹਣੀ ਕੁੜੀ 🌻</h2>
+                <button id="btn-praise-click" class="base-btn design-btn">Click</button>
+            </section>
+
+            <section id="screen-birthday" class="screen scrollable-content">
+                <div class="img-holder dynamic-photo">
+                    <img src="us.jpg" alt="UMANG and Me">
+                </div>
+                <h2 class="bday-title">HAPPY BIRTHDAY UMANG 💖</h2>
+                <div class="letter-box">
+                    <p class="bday-text">I wanted to take a moment today to remind you how much I truly appreciate having you in my life. You are seen, heard, and valued—not just today, but every single day. If you ever feel overwhelmed or uncertain, I need you to remember that your friendship means the absolute world to me.</p>
+                    <p class="bday-text">Honestly, you are my favorite notification every single day. No matter what I’m doing, seeing your name pop up on my screen instantly makes everything better. You have a way of making life feel brighter just by being yourself.</p>
+                    <p class="bday-text">Thank you for being such an amazing friend, for the laughter, the support, and for being exactly who you are. Stay as wonderful, genuine, and happy as you are!</p>
+                    <p class="bday-text letter-signature">Happy Birthday to my best friend, my ਸੋਹਣੀ ਕੁੜੀ! 🌻✨</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
